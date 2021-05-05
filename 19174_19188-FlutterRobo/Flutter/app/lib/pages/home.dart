@@ -91,7 +91,7 @@ class _HomePageState extends State<HomePage> {
                   primary: Colors.red,
                 ),
                 onPressed: () async {
-                  await Client.execute('u');
+                  await Client.execute('c'); // para cima
                 },
                 child: Icon(
                   Icons.arrow_upward_rounded,
@@ -110,7 +110,7 @@ class _HomePageState extends State<HomePage> {
                       primary: Colors.red,
                     ),
                     onPressed: () async {
-                      await Client.execute('l');
+                      await Client.execute('e'); // oara a esquerda
                     },
                     child: Icon(
                       Icons.arrow_back_rounded,
@@ -127,7 +127,7 @@ class _HomePageState extends State<HomePage> {
                       primary: Colors.red,
                     ),
                     onPressed: () async {
-                      await Client.execute('r');
+                      await Client.execute('d'); // para a esquerda
                     },
                     child: Icon(
                       Icons.arrow_forward_rounded,
@@ -149,7 +149,7 @@ class _HomePageState extends State<HomePage> {
                   primary: Colors.red,
                 ),
                 onPressed: () async {
-                  await Client.execute('d');
+                  await Client.execute('b'); // para baixo
                 },
                 child: Icon(
                   Icons.arrow_downward_rounded,
